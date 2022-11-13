@@ -26,6 +26,11 @@ def adding_an_item(bill):
     if item_code in file:
         pass
     x=int(input('Enter the no. of items u want: '))
+    bill[item_code]=x
+def remove_item(bill):
+    item_code=input('Enter the item code to remove that item: ')
+    if item_code in bill:
+            
         
 
 
