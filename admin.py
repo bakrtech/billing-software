@@ -1,5 +1,8 @@
-username="admin".lower()
-password="thesafestpassword".lower()
+import pickle
+credintials = open("Backend/.admin.dat","rb")
+information=pickle.load(credintials)
+username=information[0]
+password=information[1]
 print("Admin login ")
 def login():
     username_in = input("Enter your username: ")
@@ -10,4 +13,5 @@ def login():
     else:
         print(f"Loged in as {username_in}")
         return str(username_in)
-
+login()
+credintials.close()
