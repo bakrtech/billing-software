@@ -20,3 +20,12 @@ CONFIRM >y/n
 add
 
 '''
+def adding_an_item(bill):
+    item_code=input('Enter the code of the item added: ')
+    print('Product information')
+    if item_code in file:
+        pass
+    x=int(input('Enter the no. of items u want: '))
+        
+
+
