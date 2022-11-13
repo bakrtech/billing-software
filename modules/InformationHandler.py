@@ -1,6 +1,6 @@
 import pickle
 def Inofrmation():
-    Info = open("Backend/information.dat","ab")
+    Info = open("../Backend/information.dat","ab")
     Store_Name = str(input("Enter the store ID :"))
     Store_Mobile_No=str(input("Enter the Store Moblie number: "))
     Store_Address=input('Enter the Store Address: ')
